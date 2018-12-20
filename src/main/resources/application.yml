@@ -1,0 +1,24 @@
+---       
+spring:
+  name: dev-postgres
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_batch
+    username: 'postgres'
+    password: 'dba'
+    platform: postgres
+    hikari:
+      transaction-isolation: TRANSACTION_READ_COMMITTED
+#      schema: /org/springframework/batch/core/schema-postgresql.sql
+#  batch:
+#    initialize-schema: always
+  profiles: 
+#    active: extracting-item-writer-adapter
+    active: hibernate-format-job
+  jpa:
+    properties:
+      show-sql: true
+      hibernate:
+        jdbc:
+          lob.non_contextual_creation: true
+    

@@ -1,0 +1,33 @@
+<customers>
+  <customer>
+    <id>0</id>
+    <firstName>Richard</firstName>
+    <middleInitial>N</middleInitial>
+    <lastName>Darrow</lastName>
+    <address>5570 Isabella Ave</address>
+    <city>St. Louis</city>
+    <state>IL</state>
+    <zip>58540</zip>
+  </customer>
+ <customer>
+    <id>1</id>
+    <firstName>Wayne</firstName>
+    <middleInitial>L</middleInitial>
+    <lastName>Lund</lastName>
+    <address>6680 Stone Valley Dr.</address>
+    <city>Reno</city>
+    <state>NV</state>
+    <zip>89523</zip>
+  </customer>
+   <customer>
+    <id>2</id>
+    <firstName>Michael</firstName>
+    <middleInitial>L</middleInitial>
+    <lastName>Minella</lastName>
+    <address>812 Vessona Circle</address>
+    <city>Folsom</city>
+    <state>CA</state>
+    <zip>95630</zip>
+  </customer>
+</customers>
+  
